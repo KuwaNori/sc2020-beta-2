@@ -1,4 +1,4 @@
-<p>https://gms.gdl.jp/~kuwanori/sc2020-beta/login.php</p>
+<p>https://gms.gdl.jp/~kuwanori/sc2020-beta-2/login.php</p>
 <h4>環境</h4>
 <p>PHP</p>
 <p>PostgreSQL</p>
