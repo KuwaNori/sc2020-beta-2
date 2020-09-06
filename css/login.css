@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  font-family:'Hiragino Kaku Gothic ProN';
+}
+
+.logo img{
+  height:200px;
+  width:200px;
+  margin-top:100px;
+  margin-bottom:0px;
+}
+
+/* img */
+.logo {
+  text-align: center;
+}
+
+/* フォーム全体をくくる　*/
+.login{
+  width:100%;
+  font-size:50px;
+  margin-top:30px;
+}
+
+/* form のクラス */
+.logform{
+  width:70%;
+  height:80px;
+  margin:0 auto;
+}
+
+/* 入力フォームとボタン全てくくる　*/
+.cp{
+  text-align: center;
+  margin-bottom:500px;
+}
+
+input {
+  font-size:80%;
+}
+
+/* textbox */
+.cp_iptxt {
+  width:50%;
+  height:70px;
+  margin:0 auto;
+}
+
+/* copy email form */
+.cp_iptxt input[type='text']{
+	width:100%;
+  background:transparent;
+  border-bottom:solid 1px #5ed7e6;
+  border-top:none;
+  border-left:0;
+  border-right:none;
+  font-size:1rem;
+  padding:0.5em 0.4em;
+  transition:all 0.4s;
+  color:#ffffff;;
+  margin:0.7rem 0;
+}
+.ef input[type='text']:focus {
+  background:#5ed7e6;
+  transform: scale3d(1.06,1.06,1.06);
+}
+
+/* copy password form */
+.cp_iptxt input[type='password']{
+  width:100%;
+  background:transparent;
+  border-bottom:solid 1px #5ed7e6;
+  border-top:none;
+  border-left:0;
+  border-right:none;
+  font-size:1rem;
+  padding:0.5em 0.4em;
+  transition:all 0.4s;
+  color:#ffffff;;
+  margin:0.7rem 0;
+}
+.ef input[type='password']:focus {
+  background:#5ed7e6;
+  transform: scale3d(1.06,1.06,1.06);
+}
+
+.btn{
+  margin-top:50px;
+  display:inline-block;
+  border-radius:5px;
+  font-size:20pt;
+  text-align:center;
+  cursor:pointer;
+  padding:12px 48px;
+  background:#00ACC1;
+  color:#ffffff;
+  line-height:1em;
+  opacity:0.9;
+  transition:.3s;
+  box-shadow:6px 6px 3px #666666;
+  text-decoration:none;
+  border:none;
+}
+
+.btn:hover{
+  box-shadow:none;
+  opacity:1;
+}
